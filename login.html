@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanSpot</title> 
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>FanSpot</span></div>
+        <form action="login.php" method="post">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" name="email_or_usr" placeholder="Email or Username" required>
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+          <div class="pass"><a href="password_reset.html">Forgot password?</a></div>
+          <div class="row button">
+            <input type="submit" name="login" value="Login">
+          </div>
+          <div class="signup-link">Not a member? <a href="signup.html">Signup now</a></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
